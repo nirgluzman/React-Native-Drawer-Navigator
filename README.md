@@ -27,3 +27,12 @@ https://github.com/nirgluzman/React-Native-Drawer-Tab-Navigators.git
   the bottom of the screen.
 - Each tab is linked to a Screen or nested Stack Navigator and displays an active state when
   selected.
+
+### Steps to add a Navigator to `App.js`
+
+- Wrapping your app with <NavigationContainer>
+- import `createDrawerNavigator` and define `Drawer`.
+- Set the Navigator <Drawer.Navigator>; this component should wrap/register all our screens using
+  <Drawer.Screen>
+- By default, the top most screen is rendered as the starting screen. We can always set the initial
+  route using `initalRouteName` prop.
