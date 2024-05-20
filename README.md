@@ -4,7 +4,7 @@ https://reactnavigation.org/docs/getting-started
 
 ## GitHub repo
 
-https://github.com/nirgluzman/React-Native-Drawer-Tab-Navigators.git
+https://github.com/nirgluzman/React-Native-Drawer-Navigator.git
 
 ### Native Stack Navigator vs. Stack Navigator
 
@@ -23,8 +23,7 @@ https://github.com/nirgluzman/React-Native-Drawer-Tab-Navigators.git
 
 ### Tab Navigator
 
-- Tab Navigators allow you to add tabbed navigation to the bottom of your app. The bar is fixed to
-  the bottom of the screen.
+- Tab Navigators allow you to add tabbed navigation at different locations in the screen.
 - Each tab is linked to a Screen or nested Stack Navigator and displays an active state when
   selected.
 
